@@ -1,0 +1,1 @@
+SELECT * FROM manager WHERE date_of_birth = (SELECT MAX(date_of_birth) FROM manager);
